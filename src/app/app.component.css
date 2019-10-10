@@ -1,0 +1,33 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+body{
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-ul .form-li{
+    display: inline-block;
+}
+.form-ul .form-li .form-a{
+    color: white;
+    display: block;
+    padding: 8px 50px;
+    text-decoration: none;
+}
+.form-ul .form-li .form-a:hover{
+ background-color: rgba(4, 129, 177, 0.4);
+}
+.form-menu{
+    background-color: rgba(0,0,0,.6);
+    border-bottom: 2px solid rgba(4, 129, 177, 0.4);
+    
+}
+

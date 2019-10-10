@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+body{
+    background: url(../img/fondo2.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-ul .form-li{
+    display: inline-block;
+}
+.form-ul .form-li .form-a{
+    color: white;
+    display: block;
+    padding: 8px 50px;
+    text-decoration: none;
+}
+.form-ul .form-li .form-a:hover{
+ background-color: #e47717;
+}
+.form-menu{
+    background-color: rgba(0,0,0,.6);
+    border-bottom: 2px solid #ff851b;
+    
+}
+
+
+
+.contenedor .form .form-header .form-title{
+    font-weight: normal;
+    text-align: center; 
+    color: #ff851b;
+    font-family: roboto;
+}
+
+.contenedor .form .form-header .form-title span{
+    color: white;
+}
+
+.contenedor .form{
+    background: rgba(0,0,0,.6);
+    
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+}
+
+.contenedor .form .form-radio{
+    color: #ff851b;
+    
+}
+
+.contenedor .form .form-label{
+    display: block;
+    color: #ff851b;
+    font-size: 16px;
+    font-family: roboto;
+    position: relative;
+}
+
+.contenedor .form .form-select{
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    color: white;
+    
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    
+
+    
+}
+
+.contenedor .form .form-input {
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: rgb(219, 219, 219);
+    font-family: roboto;
+}
+.contenedor .form .form-inputEdad {
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 60%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: rgb(219, 219, 219);
+    font-family: roboto;
+}
+
+.contenedor .form .form-btn2{
+    width: 38%;
+    font-family: roboto;
+    outline: none;
+    background: #e47717;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor .form .form-btn{
+    width: 100%;
+    font-family: roboto;
+    outline: none;
+    background: #e47717;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.contenedor .form .form-btn:hover{
+    background: #ff8f2c;
+    
+}

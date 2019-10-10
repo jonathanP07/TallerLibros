@@ -1,0 +1,22 @@
+<div id="wrapper"></div>
+<div class="form-contenedor">
+
+        <table >
+            <thead> 
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Valor</th>
+                    <th>Popular</th>
+                </tr>
+            </thead>
+            <tr *ngFor="let libro of libros">
+                <td>{{libro.id}}</td>
+                <td>{{libro.title}}</td>
+                <td>{{libro.valor}}</td> 
+                <td>{{libro.popular}}</td>
+                <td><span *ngIf="libro.priority===true;"> <b>Popular</b> </span></td>
+            </tr>
+            
+        </table>
+    </div>   

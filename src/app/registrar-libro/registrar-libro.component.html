@@ -1,0 +1,30 @@
+
+<body>
+    <div id="wrapper">
+        <form action="" method="post">
+            <fieldset>
+                <legend>Registrar Libro</legend>
+                <div>
+                    <label > Id: </label>
+                    <input [(ngModel)]="libro.id" type="number" name="id" placeholder="Id del Libro"/>
+                </div>
+                <div>
+                        <label > Nombre: </label>
+                    <input [(ngModel)]="libro.title" type="text" name="title" placeholder="Nombre del Libro"/>
+                </div>
+                <div>
+                        <label > Valor: </label>
+                    <input [(ngModel)]="libro.valor" type="number" name="valor" placeholder="Valor del Libro"/>
+                </div>
+                <div >
+                    <label >Popular:
+                      <input [(ngModel)]="libro.popular" type="checkbox">
+                    </label>
+                  </div>
+
+                <input type="submit" (click)="add()"  name="submit" value="Registrar"/>
+            </fieldset>    
+        </form>
+    </div>
+</body>
+

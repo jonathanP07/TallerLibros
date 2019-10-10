@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    
+}
+
+.form-contenedor{
+    margin: 50px auto;
+    margin-right: 30px auto;
+    width: 1000px;
+}
+table{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 70%;
+    text-align: left;
+    border-collapse: collapse;
+    
+}
+th,td{
+    font-family: roboto;
+    border: solid 1px black;
+    padding: 3px;
+
+}
+thead{
+    background-color: rgba(0,0,0,.6);
+    border-bottom: 2px solid #ff851b;
+    color: white;
+}
+tr:nth-child(odd){
+background:rgba(0,0,0,.2);
+}
+
+tr:hover td{
+    background-color: #e77918;
+    color: white;
+}
